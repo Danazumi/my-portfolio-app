@@ -87,7 +87,8 @@ function App() {
         <motion.img
           src="/kakashi.png"
           alt="art"
-          className="w-[100px]  top-[80px] right-[325px] animate-spin-slow z-50 fixed"
+          className="w-[70px]  top-14 left-16 animate-spin-slow z-50 fixed max-lg:w-[60px] 
+          max-md:w-[50px] "
           variants={circleAnimate}
           initial="hidden"
           animate="show"
@@ -108,19 +109,18 @@ function App() {
             ))}
           </motion.div>
         </div>
-        <div className="h-[500px] m-auto ">
+        <div className="h-[500px] m-auto  sticky">
           <motion.img
             src="/kishibe.png"
             alt="art"
-            className="object-cover w-[1116px]  mt-[100px]"
+            className="object-cover w-[1000px]  mt-[100px]"
             variants={animateImage}
             inital="hidden"
             animate="show"
           />
         </div>
         <motion.div
-          className="bg-black p-4 w-[300px] absolute top-[450px]
-        right-[305px]  drop-shadow-lg  z-50"
+          className="bg-black p-4 w-[300px] absolute top-[447px] right-6  drop-shadow-lg  z-50 max-3xl:w-[280px]"
           variants={explainAnimate}
           initial="hidden"
           animate="show"
