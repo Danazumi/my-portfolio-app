@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "esnext",       // The target version of ECMAScript
+    "module": "esnext",       // The module system used
+    "moduleResolution": "node", // How modules are resolved
+    "jsx": "react-jsx",        // Specify JSX runtime (react-jsx for React)
+    "strict": true,            // Enable strict type checking
+    "esModuleInterop": true,   // Enable ES module interoperability
+    "skipLibCheck": true,      // Skip checking of declaration files
+    "forceConsistentCasingInFileNames": true // Ensure consistent file naming
+  },
+  "include": ["src/**/*.tsx", "src/**/*.ts"] // Specify files to include in compilation
+}
